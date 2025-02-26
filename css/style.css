@@ -3,3 +3,33 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.containerheader{
+    max-width:2000px;
+    margin: 0 auto;
+    display: flex;
+}
+.dropboxlogo{
+    width: 700px;
+    padding:10px 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.opzionidropbox{
+    width: 700px;
+    padding: 10px 50px;
+    margin-left: 520px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bluebutton{
+    background-color: rgb(49, 169, 209);
+    border: 1px solid black;
+    padding: 3px 10px;
+}
