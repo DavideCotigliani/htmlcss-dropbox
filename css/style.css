@@ -33,3 +33,56 @@ body{
     border: 1px solid black;
     padding: 3px 10px;
 }
+
+.w-tot{
+    width: 200px;
+    padding: 10px 0px;
+    margin: 30px 0px;
+}
+.containermain{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    background-color: red;
+    height: 700px;
+}
+
+.bg-lightblue{
+    background-color: lightblue;
+}
+
+.containerjumbo{
+    width: 100%;
+}
+
+h1{
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.imgjumbotron{
+    width: 600px;
+    margin-top: 150px;
+}
+
+.contentjumbo{
+    display: flex;
+    position: relative;
+}
+
+.didascaliejumbo{
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    line-height: 1;
+    margin: 30px; 0px;
+}
+
+.downarrow{
+margin-top: 50px;
+}
+
+.primadidascalia{
+    margin-top: 50px;
+}
