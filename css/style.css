@@ -183,6 +183,7 @@ ul{
     padding: 13px;
     margin-top: 130px;
     height: 500px;
+    margin-bottom: 80px;
 }
 
 .colleghicontent{
@@ -207,4 +208,24 @@ ul{
     width: 55%;
     position: absolute;
     left:0px;
+}
+
+.col-33{
+    width: 33%;
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 5px; 5px;
+}
+
+.riquadroimmagini{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 100%;
+}
+
+.card img{
+    max-width: 100%;
 }
