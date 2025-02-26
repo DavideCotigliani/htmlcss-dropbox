@@ -150,7 +150,6 @@ ul{
 }
 .colonnaenter{
     width: 100%;
-    background-color: yellow;
     border: 1px solid white;
     text-align: center;
     padding: 13px;
@@ -158,7 +157,6 @@ ul{
 }
 .riquadroenter{
     width: 100%;
-    background-color: yellow;
     border: 1px solid white;
     padding: 13px;
 }
@@ -176,4 +174,37 @@ ul{
     padding: 3px 13px;
     position: absolute;
     right: 0px;
+}
+
+.colleghi{
+    width: 100%;
+    background-color: yellow;
+    border: 1px solid white;
+    padding: 13px;
+    margin-top: 130px;
+    height: 500px;
+}
+
+.colleghicontent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    position: relative;
+}
+
+.titolocolleghi{
+    width: 20%;
+    margin-top: 60px;
+    margin-right: 175px;
+}
+.descrizionecolleghi{
+    width: 300px;
+    margin-right: 70px;
+}
+
+.partnerimage{
+    width: 55%;
+    position: absolute;
+    left:0px;
 }
