@@ -122,7 +122,6 @@ h2{
 }
 .firstcolumns{
     width: 33%;
-    background-color: yellow;
     border: 1px solid white;
     text-align: center;
     padding: 13px;
@@ -133,7 +132,6 @@ h2{
 }
 .secondcolumns{
     width: 33%;
-    background-color: yellow;
     border: 1px solid white;
     padding-left: 20px;
 }
@@ -149,4 +147,33 @@ ul{
     flex-direction: column;
     display: flex;
     line-height: 2;
+}
+.colonnaenter{
+    width: 100%;
+    background-color: yellow;
+    border: 1px solid white;
+    text-align: center;
+    padding: 13px;
+    margin-top: 120px;
+}
+.riquadroenter{
+    width: 100%;
+    background-color: yellow;
+    border: 1px solid white;
+    padding: 13px;
+}
+
+.enterprisecontent{
+    display: flex;
+    flex-direction: column;
+    line-height: 3;
+    position:relative;
+}
+
+.otherbluebutton{
+    background-color: rgb(49, 169, 209);
+    border: 1px solid none;
+    padding: 3px 13px;
+    position: absolute;
+    right: 0px;
 }
