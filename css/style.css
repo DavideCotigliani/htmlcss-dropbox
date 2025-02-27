@@ -258,3 +258,37 @@ border: 1px solid white;
     border: 1px solid white;
     padding-top: 30px;
 }
+
+.containerfooter{
+    width: 100%;
+    background-color: rgb(59, 54, 54);
+}
+
+.footercontent{
+    display: flex;
+}
+.blocchifooter{
+    width: 20%;
+    border: 1px solid white;
+    background-color: yellow;
+    color: white;
+}
+
+.dropboxfooter{
+    width: 20%;
+    border: 1px solid white;
+    background-color: yellow;
+    color: white;
+    border-bottom: 1px solid rgb(168, 62, 62);
+}
+.scrittefinali{
+    width: 100%;
+    border: 1px solid white;
+    background-color: blue;
+    margin-top: 40px;
+    display: flex;
+}
+
+.didascaliefinali{
+padding-right: 25px;
+}
